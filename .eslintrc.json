@@ -1,0 +1,19 @@
+{
+    "extends": ["standard", "standard-react"],
+    "env": {
+      "browser": true
+    },
+    "globals": {
+      "__DEV__": false,
+      "__PROD__": false
+    },
+    "rules": {
+      "quotes": ["error", "double"],
+      "semi": [2, "never"],
+      "jsx-quotes": [0, "prefer-double"],
+      "react/prop-types": "off",
+      "space-before-function-paren": "off",
+      "comma-dangle": ["error", "always-multiline"]
+    }
+  }
+  
